@@ -3,7 +3,7 @@ import csv
 filename = "sample.csv"  
 try:
     with open(filename, "r") as file:
-        reader = csv.reader(file)
+        reader = csv.reader(filename)
         row_count= 0
         for row in reader:
             row_count+=1
