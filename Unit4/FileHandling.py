@@ -1,5 +1,5 @@
 file= open("demo.txt", "w")
-file.write("This is a demo file.\n")
+file.write("This is a demo file.")
 file= open("demo.txt", "r")
 content= file.read()
 print(content)
